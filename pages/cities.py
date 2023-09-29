@@ -166,7 +166,7 @@ df1['price_type'] = df1.loc[:, 'price_range'].apply( lambda x: create_price_type
 st.header( 'Fome Zero!!!' )
 
 st.sidebar.title( 'Fome Zero' )
-image = Image.open( '../logo.png' )
+image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=280 )
 
 st.sidebar.subheader( 'Filtros' )
