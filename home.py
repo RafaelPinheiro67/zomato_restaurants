@@ -161,7 +161,7 @@ st.header( 'Fome Zero!!!' )
 
 st.sidebar.title( 'Fome Zero' )
 st.sidebar.markdown( """---""" )
-image = Image.open( '/logo.png' )
+image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=280 )
 st.sidebar.markdown( """---""" )
 
